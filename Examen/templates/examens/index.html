@@ -1,0 +1,19 @@
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#table').bootstrapTable({
+           data:{{data|safe}}
+        });
+    });
+</script>
+
+<table id="table">
+    <thead>
+        <tr>
+            <th data-field="id">Item ID</th>
+            <th data-field="name">name</th>
+            <th data-field="exam">exam</th>
+             <th data-field="datum">datum</th>
+             <th data-field="reden">reden</th>
+        </tr>
+    </thead>
+</table>
